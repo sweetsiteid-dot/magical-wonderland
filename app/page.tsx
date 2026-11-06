@@ -1,21 +1,21 @@
 'use client';
 import { useState } from 'react';
-import Castle from '@/components/Castle';
-import StarFieldR3F from '@/components/StarFieldR3F';
-import GateIntro from '@/components/GateIntro';
-import MusicPlayer from '@/components/MusicPlayer';
-import CursorTrail from '@/components/CursorTrail';
-import StorySection from '@/components/StorySection';
-import PhotoGallery from '@/components/PhotoGallery';
-import LoveTimeline from '@/components/LoveTimeline';
-import LoveCounter from '@/components/LoveCounter';
-import LoveLetter from '@/components/LoveLetter';
-import MiniGames from '@/components/MiniGames';
-import WishingWall from '@/components/WishingWall';
-import LoveCoupons from '@/components/LoveCoupons';
-import EasterEggs from '@/components/EasterEggs';
-import FinaleFireworks from '@/components/FinaleFireworks';
-import Footer from '@/components/Footer';
+import Castle from '../components/Castle';
+import StarFieldR3F from '../components/StarFieldR3F';
+import GateIntro from '../components/GateIntro';
+import MusicPlayer from '../components/MusicPlayer';
+import CursorTrail from '../components/CursorTrail';
+import StorySection from '../components/StorySection';
+import PhotoGallery from '../components/PhotoGallery';
+import LoveTimeline from '../components/LoveTimeline';
+import LoveCounter from '../components/LoveCounter';
+import LoveLetter from '../components/LoveLetter';
+import MiniGames from '../components/MiniGames';
+import WishingWall from '../components/WishingWall';
+import LoveCoupons from '../components/LoveCoupons';
+import EasterEggs from '../components/EasterEggs';
+import FinaleFireworks from '../components/FinaleFireworks';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const [hasEntered, setHasEntered] = useState(false);
